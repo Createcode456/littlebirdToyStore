@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .body {background-color:#ebcc9e;
+         }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" href="script.js" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+
+<body class="body">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ <h1 class="class">Little Bird Toy Store</h1>
+
+
+
+
+  <!doctype html>
+  <html lang="en" data-bs-theme="auto">
+    <head><script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+      <meta name="generator" content="Hugo 0.118.2">
+      <title>Carousel Template · Bootstrap v5.3</title>
+
+      <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+  <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+      <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#712cf9">
+
+      <!-- Custom styles for this template -->
+      <link href="carousel.css" rel="stylesheet">
+    </head>
+    <body>
+      <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check2" viewBox="0 0 16 16">
+          <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+          <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+          <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+          <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+        </symbol>
+      </svg>
+
+      <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+        <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+                id="bd-theme"
+                type="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                aria-label="Toggle theme (auto)">
+          <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+          <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+              <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+              Light
+              <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+              <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+              Dark
+              <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+              <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+              Auto
+              <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+
+
+  <header data-bs-theme="light">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <div class="container-fluid">
+        <img class="navbar-brand" src="images/logo.png" style="width: 110px; height: 60px;"></img>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quality</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sustainability</a>
+            </li>
+            
+                 <li class="nav-item">
+                <a class="nav-link" href="#">Our Products</a>
+                   </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Visit Us!</a>
+              </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+  
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  
+
+      
+          
+        
+      <!-- START THE FEATURETTES -->
+<br>
+     
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        
+          <h2 class="featurette-heading fw-normal lh-1">Welcome to Little Bird Co!<span class="text-body-secondary"</span></h2> 
+      
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+  
+          <h2 style="text-align: center;">Our Story</h2> 
+          <p class="lead">
+            Our handcrafted classic, wooden toys are designed to bring out that slowness in your home. From Planes, trains, automobiles and boats, playsets, all of our wooden toys are designed to spark imagination. The going may be a little slower, but oh the things you’ll see along the way!</p>
+        </div>
+       
+       
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+    
+          <h2 style="text-align: center;">Quality</h2> 
+          <p class="lead">
+            All of our products meet or exceed Consumer Product Safety standards and are finished with toxin-free paints that meet CA-prop65.  Our toys undergo physical, mechanical, and fire-safety testing guided by ASTM standards.  And every piece we craft sustains our own in-house physical testing procedure to ensure unmatched durability and stability.
+</p>
+        
+        </div>
+      
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <h2 style="text-align: center;">Sustainablity</h2>
+          <p class="lead">Wood is an important part of who we are.  Early on we chose wood for its inherently durable qualities with the intention of making toys and furniture that could withstand the test of time – and stay out of the landfill.
+            Our wooden toys are designed to withstand the wear of play and to be safely enjoyed from generation to generation.
+            Our process of sourcing, manufacturing, and shipping only within the U.S. allows us to support our national economy and reduce the often-hefty carbon emissions that come with international trade and shipping.
+</p>
+        </div>
+        
+       
+     
+
+
+
+
+
+
+
+  
+  
+ 
+
+        <h1 style="text-align:center;">Our Products</h1>
+          <br>
+         <br>
+          <br>
+          
+<h1 style="text-align:center;">Wooden Train</h1>
+  <p style="text-align: left;">$19.99</p>
+          <p class="lead">
+            A beautiful handmade wooden train set - Engine and three interchangeable cars Handmade detailed artwork made of real beech wood. A Wonderful Christmas gift!
+            Fully ecological product, only natural materials. High quality and durable. 
+            Suitable for children from 3 years old Lots of fun guaranteed at any age! Please note that these toys have small parts that could break off if used inappropriately.
+            </p>  
+
+  <img src="images/train1.jpg" style="width: 400px; height: 400px;">
+        <br>
+          <br>
+          <br>
+  <h2 style="text-align: center;"> Wooden Car</h2>
+ <p class="class2">$11.99</p>
+          <p class="lead">
+            A one-of-a- kind beautifully handcrafted wooden car.Handcrafted from a variety of domestic and exotic hardwoods including maple, oak, mahogany, cherry woods, etc., coated with clear lacquer to enhance and hold the natural wood color. All edges are rounded over and sanded for a silky smooth finish.  
+            Please be aware there may be choking hazards with small children. Toys have a few small parts that may break with excessive rough or improper use.
+
+            </p>
+  <img src="images/car1.jpg" style="width: 400px; height: 400px;">
+          <br>
+          <br>
+          <br>
+  <h3 style="text-align: center;">Wooden Plane</h3>
+  <p>$19.99</p>
+          <p class="lead">
+            Wooden Airplane Toy. Defying gravity and soaring in the sky is every boys dream.The Airplane Comes with Real Rolling Wheels and Spinning Propellers.
+            Made out of Solid Wood - Built to Last for a Lifetime of Play.
+            Perfect Creative Gift for Toddlers and  safe for Young Kids - Comes with a Non-Toxic Finish!
+            </p>
+        
+    <img src="images/plane1.jpg" style="width: 400px; height: 400px;">
+          <br>
+          <br>
+          <br>
+        
+ <h4 style="text-align: center;">Wooden Toy Boat</h4>
+  <p>$10.75</p>
+        
+
+          <p class="lead">
+          On the coast of Maine, "Lobstah" boats like this one are a common sight. 
+        This new wooden toy model really floats and makes a great bath toy.  
+        The safe and simple design encourages a child to use his or her own imagination.   Batteries not required!
+</p>
+  <img src="images/boat1.jpg" style="width: 400px; height: 400px;">
+<br>
+          <br>
+          <br>
+          <h5 style="text-align:center;">Wooden Block Toy Set</h5>
+          <p>$20.99</p>
+          <p class="lead">
+            Highly durable set for indoor or outdoor use including: lawns, patios, living rooms, preschools, kindergartens & anywhere else. Make your own dream castle anywhere.  Block play helps promote creativity, independent play, cooperative play, fine motor skills and hand-eye coordination. When building, children must consider proportions, symmetry, size and more, which benefit early cultivation of concepts. </p> 
+           <img src="images/block5.jpg" style="width: 400px; height: 400px;">
+          <br>
+<br>
+          <br>
+  <h6 style="text-align: center;"Vist US!</h6>
+        
+          <p class="lead">
+  You’re more than a customer to us – you’re a part of our family!  We love hearing stories of how your children and grandchildren are playing with our toys. 
+Visit us at our Toms River, NJ toy store! 
+All of our toys are made on-site at this location, and you’ll find an old-fashioned toy store with cozy corners to play and explore – and time for us to get to know each other!</p>
+          
+          
+        <h7>Contact information </h7>
+        <p></p>
+        <div class="container">
+           <div class="contact-parent">
+              <div class="contact-child child1">
+                 <p>
+                    <i class="fas fa-map-marker-alt"></i> Address <br />
+                    <span> 43 Main St, Toms River, NJ</span>
+                 </p>
+                 <p>
+                    <i class="fas fa-phone-alt"></i> phone number <br />
+                    <span> (717) 123-1234</span>
+                 </p>
+                <p>
+                    <i class="fas fa-phone-alt"></i> Store Hours <br />
+                    <span> WEEKDAYS
+                      7:00 AM to 4:30 PM
+                      <p>Saturday
+                      10:00 AM to 2:00 PM
+                    </span>
+                 
+                 </p>
+              </div>
+             
+                
+             <h1>Mailing Signup</h1>
+              <!-- Button to open the modal -->
+              <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+              <!-- The Modal (contains the Sign Up form) -->
+              <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">times;</span>
+                <form class="modal-content" action="/action_page.php">
+                  <div class="container">
+                    <h1>Sign Up</h1>
+                    <p>Please fill in this form to create an account.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                    </label>
+
+                    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                    <div class="clearfix">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <button type="submit" class="signup">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+  
+  
+</body>
+
+</html>
+
